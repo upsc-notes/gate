@@ -344,13 +344,9 @@ export default function ConceptView() {
       <div className="concept-view-container" style={currentStyles.container}>
         <header className="concept-view-header" style={currentStyles.header}>
           <h1 className="concept-view-title" style={currentStyles.title}>
-            Concept Overview
+            Believe you can and you're halfway there.
           </h1>
           {/* Priority Wrapper was moved inside header for better mobile layout, ensure it's here */}
-          <div style={currentStyles.priorityWrapper}>
-            <span style={currentStyles.priorityLabel}>Priority:</span>
-            <PriorityBadge priority={priority} />
-          </div>
         </header>
 
         <div
